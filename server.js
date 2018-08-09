@@ -9,7 +9,7 @@ var express = require('express'),
 //mongoose.Promise = global.Promise;
 //Pode mudar, fazendo a instalação do mongodb(https://www.mongodb.com/) mas essa url esta sendo utilizada no mlab(https://mlab.com), essa url ficará invalida!
 //Tem que mudar essa url 
-mongoose.connect('mongodb://<dbuser>:<dbpassword>@ds113122.mlab.com:13122/pessoas');
+mongoose.connect('mongodb://dev:dev112233@ds113122.mlab.com:13122/pessoas');
 
 
 app.use(bodyParser.urlencoded({ extended: true }));
